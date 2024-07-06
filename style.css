@@ -69,8 +69,77 @@
     border-radius: 8px;
     border: none;
     background: rgb(82, 195, 3);
+    cursor: pointer;
 }
 
 .btn-container {
     text-align: center;
+}
+
+#card-box {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .6;
+}
+
+.card-container {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+
+.card {
+    width: 305px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    width: 305px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.card .shop {
+    text-align: center;
+    padding: 14px 32px 14px 32px;
+    background-color: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.container {
+    margin-bottom: 100px;
 }
