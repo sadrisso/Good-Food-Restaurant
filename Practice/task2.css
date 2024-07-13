@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.image img {
+    height: 200px;
+}
+
+.card {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    border: 1px solid;
+    gap: 20px;
+    width: 900px;
+    
+}
+
+@media screen and (max-width: 576px){
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
