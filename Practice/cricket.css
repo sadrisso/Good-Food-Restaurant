@@ -11,7 +11,6 @@
 
 .bat {
     transition: transform  .5s;
-    background-color: white;
 }
 
 .field:hover .ball {
